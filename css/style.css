@@ -1,0 +1,97 @@
+:root {
+  --calculator-slate: #333333;
+  --calculator-apricot: #ff9403;
+  --calculator-charcoal: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input {
+  font-size: 5rem;
+  font-weight: 300;
+  height: 10rem;
+  width: 20rem;
+  padding-right: 15px;
+  padding-top: 10rem;
+  padding-bottom: 36px;
+  text-align: right;
+  color: white;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 50rem;
+}
+
+.con {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn,
+#equal,
+.c {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  /* margin: 0.5rem 0.3rem; */
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  background-color: var(--calculator-slate);
+}
+
+.r1,
+.r2,
+.r3,
+.r4,
+.r5 {
+  width: 20rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px;
+}
+
+.r5 .btn:first-child {
+  width: 9rem;
+  border-radius: 35px 35px 35px 35px;
+  padding-right: 5rem;
+}
+
+.r5 {
+  border-radius: 0 0 10px 10px;
+}
+
+.r1 {
+  padding-top: 20px;
+}
+
+.r1 .btn:last-child,
+.r2 .btn:last-child,
+.r3 .btn:last-child,
+.r4 .btn:last-child {
+  background-color: var(--calculator-apricot);
+}
+
+.r5 #equal {
+  background-color: var(--calculator-apricot);
+}
+
+.r1 .c:first-child {
+  background-color: rgb(179, 175, 175);
+  color: black;
+}
