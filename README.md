@@ -1,3 +1,3 @@
 
 # Calculator App
-iPhone Calculator Design
+iPhone Calculator Clone
