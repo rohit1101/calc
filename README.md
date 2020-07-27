@@ -1,3 +1,3 @@
 
 # Calculator App
-iPhone Calculator Clone
+iPhone Calculator Clone Using Pure CSS.
